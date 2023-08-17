@@ -41,7 +41,7 @@ export default function LoginPage(){
         <label htmlFor="Password">Password</label>
         <input id="Password" type="password" value={user.password} onChange={(e)=>{setUser({...user,password:e.target.value})}} placeholder="Password" className="text-black p-3 m-1 focus:ring-offset-blue-700"/>
         <button onClick={onLoginUp} className="p-2 border border-amber-100 rounded-lg mb-4 focus:outline-none focus: border-x-amber-200 ">Sign Up</button>
-        <Link href={'/signup'}>Sign Up</Link>
+        <Link href={'/signup'}>Login</Link>
         </div>
     ) 
 }
